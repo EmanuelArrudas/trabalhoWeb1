@@ -1,0 +1,77 @@
+  body{
+    font-family: arial;
+    background-image: url("fundo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  #pai{
+    margin: auto;
+    width: 80%;
+    display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+  }
+
+  #logo_if{
+    width: 15%;
+  }
+
+  #TI{
+    width: 40%;
+  }
+
+  #TII{
+    width: 40%;
+  }
+
+  #TM{
+    width: 40%;
+  }
+
+  #c1{
+    text-align: center;
+  }
+
+  section{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+  }
+
+      #menu ul{
+          background-color: rgba(128, 0, 0, 0.6);
+          margin-bottom: 20px;
+          padding: 0px;
+          list-style: none;
+          text-align: center;
+          font-family: ubuntu;
+      }
+
+      #menu li{
+          display: inline;
+      }
+
+      #menu a{
+          width: 10%;
+          display: inline-block;
+          text-decoration: none;
+          padding: 20px;
+          color: white;
+      }
+
+      #menu a:hover{
+          border-bottom: none;
+          padding: 20px;
+          background-color: rgba(138, 255, 255, 0.8);
+          color: forestgreen;
+      }
+
+      footer{
+          background-color: rgba(128,0,0, 0.6);
+          text-align: center;
+          margin-top: 50px;
+          padding: 30px;
+          color: white;
+          font-size: 80%;
+      }
